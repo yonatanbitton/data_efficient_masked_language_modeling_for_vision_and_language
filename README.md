@@ -13,6 +13,8 @@ This repository includes:
 
 ### Data:  
 
+The `data_directory` is available here: https://drive.google.com/drive/folders/1smFCIwNbIm4QhNHf4gn5RKRfcvGh4_Vl?usp=sharing
+
 - Pretrained models and fine-tuned models are available here: `data_directory/models`.  
 
 - Sets of annotated Objects, Attributes, Relationships from GQA and Visual Genome `data_directory/all_objects_attributes_relationships.pickle`.
