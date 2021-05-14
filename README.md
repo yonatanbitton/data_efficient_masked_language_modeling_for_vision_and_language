@@ -14,7 +14,7 @@ A. Data:
 - Pretrained models and fine-tuned models are available here: `data_directory/models`.  
 - Sets of annotated Objects, Attributes, Relationships from GQA and Visual Genome `data_directory/all_objects_attributes_relationships.pickle`.  
 - Aggregated data, where we extracted Δ Validation loss (loss without the image, minus the loss with the image) for LXMERT validation set. This is used to define the necessity of the image for a masked word prediction during MLM. Available in `data_directory/aggregated_data_detla_val_loss.csv`.  
-- Concreteness rating from the paper "Concreteness ratings for 40 thousand generally known English word lemmas", available in the data directory, `Concreteness_ratings_Brysbaert_et_al_BRM.xlsx`  
+- Concreteness rating from the paper "Concreteness ratings for 40 thousand generally known English word lemmas", available in the data directory, `data_directory/Concreteness_ratings_Brysbaert_et_al_BRM.xlsx`  
 The data is available here URL. The structure of the csv is as follows: ![](fig_delta_validation_loss.png)  
 -- We can see the sentence, the image, and the masked token (motorcycle).  
 -- 'ind_loss_with_img' is the loss with the image, 'ind_loss_false_img' is the loss without the image, and 'loss_gap' is the Δ Validation loss.  
