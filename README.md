@@ -25,7 +25,8 @@ The structure of the csv is as follows: ![](fig_delta_validation_loss.png)
 - `ind_loss_with_img` is the loss with the image, `ind_loss_false_img` is the loss without the image, and `loss_gap` is the _Δ Validation loss_.  
 - Similar for `conf_gap_of_label_with_img`, `conf_gap_of_label_false_img`, and 'conf_gap' - it is the confidence of the model (logits at location of the masked word).  
 - `top_5_preds_token_with_img`, `top_5_preds_token_false_img` - predictions of the model, with and without the image.  
-- `tagged_pos` - there is also the spacy pos tag for the sentence.   
+- `tagged_pos` - there is also the spacy pos tag for the sentence.
+- `label_in_top_5_with_img`, `label_in_top_5_false_img` - A boolean value for whether the label is among the top 5 predictions. In this example, without the image, the label is not among the top 5 predictions, but with the image, it is.      
 
 
 ### Code:  
