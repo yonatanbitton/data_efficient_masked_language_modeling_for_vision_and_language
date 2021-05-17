@@ -17,9 +17,7 @@ The `data_directory` is available here: https://drive.google.com/drive/folders/1
 
 - Pretrained models and fine-tuned models are available here: `data_directory/models`.  
 
-- Sets of annotated Objects, Attributes, Relationships from GQA and Visual Genome `data_directory/all_objects_attributes_relationships.pickle`.
-
-- Concreteness rating from the paper "Concreteness ratings for 40 thousand generally known English word lemmas", available in the data directory, `data_directory/Concreteness_ratings_Brysbaert_et_al_BRM.xlsx`  
+- Sets of annotated Objects, Attributes, Relationships from GQA and Visual Genome `data_directory/all_objects_attributes_relationships.pickle`.  
 
 - Aggregated data, where we extracted _Δ Validation loss_ (loss without the image, minus the loss with the image) for LXMERT validation set. This is used to define the necessity of the image for a masked word prediction during MLM. Available in `data_directory/aggregated_data_detla_val_loss.csv`.    
 The structure of the csv is as follows: ![](fig_delta_validation_loss.png)  
