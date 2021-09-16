@@ -33,3 +33,14 @@ The structure of the csv is as follows: ![](fig_delta_validation_loss.png)
 - Code for the alternative masking strategies, available in `src/alternative_masking_strategies.py`
   
 - Semantic classes information, including functions to detect _Objects_, _Attributes_, and _Relationships_, available in `src/semantic_types_information.py`   
+
+## Reference
+
+```bibtex
+@article{bitton2021data,
+  title={Data Efficient Masked Language Modeling for Vision and Language},
+  author={Bitton, Yonatan and Stanovsky, Gabriel and Elhadad, Michael and Schwartz, Roy},
+  journal={arXiv preprint arXiv:2109.02040},
+  year={2021}
+}
+```
