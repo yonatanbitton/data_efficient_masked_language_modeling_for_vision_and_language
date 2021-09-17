@@ -1,5 +1,6 @@
 # Data Efficient Masked Language Modeling for Vision and Language
-Repository for the paper "Data Efficient Masked Language Modeling for Vision and Language", accepted to Findings of EMNLP 2021.
+Repository for the paper "Data Efficient Masked Language Modeling for Vision and Language", accepted to Findings of EMNLP 2021.  
+https://arxiv.org/abs/2109.02040. 
 
 ![](fig1.png)
 The baseline MLM masks a random token with 15\% probability (where ~50\% of the masked tokens are stop-words or punctuation). Our method masks words that require the image in order to be predicted (e.g., physical objects).
